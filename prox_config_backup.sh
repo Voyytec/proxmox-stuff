@@ -13,7 +13,7 @@
 #   example: export BACK_DIR="/mnt/pve/media/backup"
 #   or
 #   example: BACK_DIR="." ./prox_config_backup.sh
-DEFAULT_BACK_DIR="/mnt/pve/media/backup"
+DEFAULT_BACK_DIR="/tank/backup/proxmox/initial/pvebackup"
 
 # number of backups to keep before overriding the oldest one
 MAX_BACKUPS=5
@@ -22,7 +22,7 @@ MAX_BACKUPS=5
 # Set to 1 to use Healthchecks.io
 HEALTHCHECKS=0
 # Set to the URL of your healthchecks.io check
-HEALTHCHECKS_URL=https://hc-ping.com/your_uuid_here
+#HEALTHCHECKS_URL=https://hc-ping.com/your_uuid_here
 
 ###########################
 
